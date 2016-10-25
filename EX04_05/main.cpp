@@ -19,6 +19,9 @@ int main()
 	courseTest->addStudent("Jacob"); //Adding a new student to see that it replaces the old student on the roster
 	cout << "The students in the class are: ";
 	courseTest->printStudents();
+	
+	~Course();
+	delete courseTest;
 
 	return 0;
 }
