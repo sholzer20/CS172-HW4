@@ -20,7 +20,6 @@ int main()
 	cout << "The students in the class are: ";
 	courseTest->printStudents();
 	
-	~Course();
 	delete courseTest;
 
 	return 0;
